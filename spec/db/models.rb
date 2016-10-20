@@ -44,7 +44,7 @@ class Grouping < ActiveRecord::Base
 end
 
 class UserSet < ActiveRecord::Base
-  has_closure_tree_root :root_user, class_name: "Useur"
+  has_closure_tree_root :root_user, class_name: "User"
 end
 
 class Team < ActiveRecord::Base
